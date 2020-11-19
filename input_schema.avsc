@@ -1,8 +1,9 @@
 {
   "type": "array",
   "items": {
-   "type": "record",
-   "fields": [
+  "type": "record",
+  "name": "input_schema.avsc",
+  "fields": [
       {
          "name": "YrSold",
          "type": "int"
