@@ -114,7 +114,7 @@ def action(data):
 
     adjusted_predictions = {}
     
-    adjusted_predictions['ID'] = int(data_ID)
+    adjusted_predictions['ID'] = data_ID.astype(int)
     
     for name, model in models.items():
         # actual predictions = exp(log_predictions)
