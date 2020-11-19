@@ -1,6 +1,5 @@
 {
   "type": "array",
-  "name": "input_schema.avsc",
   "items": {
    "type": "record",
    "fields": [
